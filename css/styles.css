@@ -104,13 +104,12 @@ body {
     cursor: pointer;
 
     background-color: var(--bth-color);
-    color: var(--blue-color);
+    color: #FFFFFF;
 }
 
 .modal-bth:hover,
 .modal-bth:focus {
     background-color: var(--pressed-state);
-    color: var(--mains-color);
 }
 
 .main-button {
