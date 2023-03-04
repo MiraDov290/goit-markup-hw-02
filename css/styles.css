@@ -121,13 +121,13 @@ body {
     cursor: pointer;
 
     background-color: var(--bth-color);
-    color: #FFFFFF;
+    color: var(--blue-color);
 }
 
 .modal-bth-tu:hover,
 .modal-bth-tu:focus {
     background-color: var(--pressed-state);
-    color: var(--blue-color);
+    
 }
 
 .main-button {
