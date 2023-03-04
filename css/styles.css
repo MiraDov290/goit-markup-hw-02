@@ -1,8 +1,9 @@
 :root {
     --blue-color: #4d5ae5;
     --modal-color: #2e2f42;
-    --mains-color: #FFFFFF;
+    --mains-color: #ffffff;
     --text-color: #434455;
+    --bth-color:#F4F4FD;
 }
 
 body {
@@ -101,13 +102,14 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 
+    background-color: var(--bth-color);
     color: var(--blue-color);
 }
 
 .modal-bth:hover,
 .modal-bth:focus {
-    background-color: var(--modal-color);
-    color: #FFFFFF;
+    background-color: var(--blue-color);
+    color: var(--mains-color);
 }
 
 .main-button {
