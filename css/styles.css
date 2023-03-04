@@ -107,7 +107,7 @@ body {
 .modal-bth:hover,
 .modal-bth:focus {
     background-color: var(--modal-color);
-    color: #FFFFFF;
+    color: var(--mains-color);
 }
 
 .main-button {
