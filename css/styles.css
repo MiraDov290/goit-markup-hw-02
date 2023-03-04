@@ -1,11 +1,14 @@
 :root {
+    --logo-color:#4d5ae5;
     --blue-color: #4d5ae5;
     --menu-color: #2E2F42;
     --contact-color: #434455;
     --button-color: #2e2f42;
+    --modal-color: #2e2f42;
+    --mains-color: #FFFFFF;
     --blk-color: #2e2f42;
     --bth-color: #2e2f42;
-    --hero-color: #2e2f42;
+    --hero-color: #2E2F42;
     --media-color: #2e2f42;
     --main-color: #2e2f42;
     --text-color: #434455;
@@ -18,20 +21,20 @@ body {
 }
 
 .list,
-.page-navigation {
+.page-navigation,
+.our-list {
     list-style: none;
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .link {
@@ -59,7 +62,6 @@ body {
 }
 
 .menu-link link {
-    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -98,13 +100,8 @@ body {
     color: #404bbf;
 }
 
-.main-button {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    color: #ffffff;
+.hero-list-bth {
+    background-color: var(--hero-color);
 }
 
 .modal-bth {
@@ -112,13 +109,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
     cursor: pointer;
-    flex-direction: row;
-    align-items: flex-start;
 
     color: #ffffff;
 }
@@ -130,16 +122,19 @@ body {
 }
 
 .main-button {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 
-    color: var(--hero-color);
+    color: #ffffff;
 }
 
 .hero-list {
+    background-color: var(--hero-color);
+}
+
+.hero-our {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -149,13 +144,44 @@ body {
     color: var(--hero-color);
 }
 
-.media-list .list {
+.emplo-our {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
+    color: var(--hero-color);
+}
+
+.text-going {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+}
+
+.main-secty {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.media-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    list-style: none;
+
     color: var(--media-color);
+}
+
+.media-list-item link {
+    text-decoration: none;
 }
 
 .main-title {
