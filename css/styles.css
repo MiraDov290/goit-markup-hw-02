@@ -4,6 +4,7 @@
     --mains-color: #ffffff;
     --text-color: #434455;
     --bth-color:#F4F4FD;
+    --pressed-state: #404BBF;
 }
 
 body {
@@ -108,7 +109,7 @@ body {
 
 .modal-bth:hover,
 .modal-bth:focus {
-    background-color: var(--blue-color);
+    background-color: var(--pressed-state);
     color: var(--mains-color);
 }
 
