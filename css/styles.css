@@ -112,6 +112,24 @@ body {
     background-color: var(--pressed-state);
 }
 
+.modal-bth-tu {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+    background-color: var(--bth-color);
+    color: #FFFFFF;
+}
+
+.modal-bth-tu:hover,
+.modal-bth-tu:focus {
+    background-color: var(--pressed-state);
+    color: var(--blue-color);
+}
+
 .main-button {
     font-size: 56px;
     line-height: 1.07;
