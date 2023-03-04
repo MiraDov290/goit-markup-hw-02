@@ -101,7 +101,7 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    color: #FFFFFF;
+    color: var(--blue-color);
 }
 
 .modal-bth:hover,
