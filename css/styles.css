@@ -16,7 +16,8 @@ body {
 }
 
 .page-navigation,
-.our-list {
+.our-list,
+.media-list {
     list-style: none;
 }
 
@@ -74,8 +75,7 @@ body {
     font-style: normal;
 }
 
-.contact-mailto,
-.contact-phone-number {
+.contact-mailto {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -88,10 +88,6 @@ body {
     color: #404bbf;
 }
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: #404bbf;
-}
 
 .hero-list-bth {
     background-color: var(--modal-color);
@@ -105,7 +101,7 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    color: var(--blue-color);
+    color: #FFFFFF;
 }
 
 .modal-bth:hover,
