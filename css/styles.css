@@ -1,16 +1,7 @@
 :root {
-    --logo-color:#4d5ae5;
     --blue-color: #4d5ae5;
-    --menu-color: #2E2F42;
-    --contact-color: #434455;
-    --button-color: #2e2f42;
     --modal-color: #2e2f42;
     --mains-color: #FFFFFF;
-    --blk-color: #2e2f42;
-    --bth-color: #2e2f42;
-    --hero-color: #2E2F42;
-    --media-color: #2e2f42;
-    --main-color: #2e2f42;
     --text-color: #434455;
 }
 
@@ -34,7 +25,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--logo-color);
+    color: var(--blue-color);
 }
 
 .link {
@@ -44,7 +35,7 @@ body {
 }
 
 .links {
-    color: var(--blk-color);
+    color: var(--modal-color);
 }
 
 .logo:hover,
@@ -67,7 +58,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: var(--menu-color);
+    color: var(--modal-color);
 }
 
 .menu-link:hover,
@@ -87,7 +78,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: var(--contact-color);
+    color: var(--text-color);
 }
 
 .contact-mailto link:hover,
@@ -101,7 +92,7 @@ body {
 }
 
 .hero-list-bth {
-    background-color: var(--hero-color);
+    background-color: var(--modal-color);
 }
 
 .modal-bth {
@@ -110,6 +101,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    align-items: center;
     cursor: pointer;
 
     color: #ffffff;
@@ -117,7 +109,7 @@ body {
 
 .modal-bth:hover,
 .modal-bth:focus {
-    background-color: var(--bth-color);
+    background-color: var(--modal-color);
     color: #4D5AE5;
 }
 
@@ -131,7 +123,7 @@ body {
 }
 
 .hero-list {
-    background-color: var(--hero-color);
+    background-color: var(--modal-color);
 }
 
 .hero-our {
@@ -141,7 +133,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-    color: var(--hero-color);
+    color: var(--modal-color);
 }
 
 .emplo-our {
@@ -150,7 +142,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    color: var(--hero-color);
+    color: var(--modal-color);
 }
 
 .text-going {
@@ -177,7 +169,7 @@ body {
     letter-spacing: 0.02em;
     list-style: none;
 
-    color: var(--media-color);
+    color: var(--modal-color);
 }
 
 .media-list-item link {
@@ -190,7 +182,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    color: var(--main-color);
+    color: var(--modal-color);
 }
 
 .main-text {
